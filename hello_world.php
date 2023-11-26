@@ -8,6 +8,8 @@
         <p>
             Adding two numbers ( 1 and 2)
         </p>
+        <!-- understanding tage feature -->
+        <?php print 1 + 2; ?>
         <?php echo '<p>Hello World</p>'; ?>
     </body>
 </html>
