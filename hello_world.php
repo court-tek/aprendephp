@@ -20,7 +20,7 @@
             echo WELCOME_MSG;
         ?>
 
-        <!--  -->
+        <!-- understanding php variables -->
         <?php echo '<p>Hello World</p>'; ?>
     </body>
 </html>
