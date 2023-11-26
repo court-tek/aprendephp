@@ -19,6 +19,8 @@
             define("WELCOME_MSG", "Bad Bunny Monaco is playing");
             echo WELCOME_MSG;
         ?>
+
+        <!--  -->
         <?php echo '<p>Hello World</p>'; ?>
     </body>
 </html>
