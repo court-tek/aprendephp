@@ -16,11 +16,21 @@
 
         <!-- defining constants in php feature -->
         <?php 
+            const STORE = "Macy's";
             define("WELCOME_MSG", "Bad Bunny Monaco is playing");
             echo WELCOME_MSG;
         ?>
 
-        <!--  -->
+        <!-- understanding php variables -->
+        <?php
+            $welcome_note = "Welcome to the php house.";
+            $x = 9;
+            $car;
+            // assigning a new value to $x
+            $x = 12;
+            // Initialising variable $y
+            $y = 3.5;
+        ?>
         <?php echo '<p>Hello World</p>'; ?>
     </body>
 </html>
