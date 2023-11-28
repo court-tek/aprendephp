@@ -2,21 +2,33 @@
     --rojo: #ff0000;
 }
 body {
-}
 
-body h1 {
+}
+/* global styles */
+section h1 {
     font-family: 'DM Serif Display', serif;
     font-size: 2rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 0.5rem;
 }
 
-body h2 {
+section h2 {
     font-family: 'DM Serif Display', serif;
     font-size: 1.8rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1rem;
 }
 
-body p {
+section p {
 	font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
+}
+
+.hero {
+    margin-bottom: 1.1rem;
+}
+
+.hero h1 {
+    text-align: center;
+}
+.box {
+    margin-bottom: 1.1rem;
 }
