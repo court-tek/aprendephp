@@ -1,3 +1,16 @@
+<?php
+    // understanding Stings php 
+    $title_strings_section = "Strings";
+    $string_double_quotes = "This is a string in double quotes";
+    $string_single_quotes = 'I\' have made a singly quoted string';
+    $name = "Ebelin";
+    $string1 = "Hello ";
+    $string2 = "world";
+    $oracion = strtoupper("Hey you owe me money {$name}");
+
+    // Main title variable
+    const MAIN_TITLE = "This is php"
+?>
 <html>
     <head>
         <title>PHP using web server</title>
@@ -8,29 +21,13 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=DM+Serif+Display&display=swap" rel="stylesheet">
     </head>
     <body>
+        <h1><?php echo MAIN_TITLE; ?></h1>
+        <h2><?php echo $title_strings_section; ?></h2>
         <p>
-            Adding two numbers ( 1 and 2)
+            <?php echo $string_double_quotes; ?>
         </p>
-        <!-- understanding tage feature -->
-        <?php print 1 + 2; ?>
-
-        <!-- defining constants in php feature -->
-        <?php 
-            const STORE = "Macy's";
-            define("WELCOME_MSG", "Bad Bunny Monaco is playing");
-            echo WELCOME_MSG;
-        ?>
-
-        <!-- understanding php variables -->
-        <?php
-            $welcome_note = "Welcome to the php house.";
-            $x = 9;
-            $car;
-            // assigning a new value to $x
-            $x = 12;
-            // Initialising variable $y
-            $y = 3.5;
-        ?>
-        <?php echo '<p>Hello World</p>'; ?>
+        <p><?php echo $oracion; ?></p>
+        <p><?php echo $string_single_quotes; ?></p>
+        <p><?php echo $string1.$string2; ?></p>
     </body>
 </html>
