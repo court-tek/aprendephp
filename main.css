@@ -2,12 +2,17 @@
     --rojo: #ff0000;
 }
 body {
-
 }
 
 body h1 {
     font-family: 'DM Serif Display', serif;
     font-size: 2rem;
+    margin-bottom: 1.8rem;
+}
+
+body h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.8rem;
 }
 
 body p {
